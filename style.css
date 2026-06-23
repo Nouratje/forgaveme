@@ -71,3 +71,33 @@ button {
 #noBtn:hover {
   transform: rotate(-5deg);
 }
+/* Mobiel */
+@media (max-width: 600px) {
+
+    .game-card {
+        width: 90%;
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    #message {
+        font-size: 16px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .sticker img {
+        width: 100px;
+    }
+}
