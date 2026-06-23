@@ -11,7 +11,7 @@ noBtn.addEventListener("click", () => {
   yesBtn.style.fontSize = `${18 + noClicks * 6}px`;
   yesBtn.style.padding = `${12 + noClicks * 4}px ${25 + noClicks * 8}px`;
 
-  pleaseText += "حباب🥹";
+  pleaseText += "حباب 🥹";
   message.textContent = `${pleaseText} 🥹`;
 
   if (noClicks >= 5) {
